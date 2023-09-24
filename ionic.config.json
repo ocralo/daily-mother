@@ -1,0 +1,8 @@
+{
+  "name": "Daily mother",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "eaf28ffb"
+}
