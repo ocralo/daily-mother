@@ -1,0 +1,59 @@
+<ion-grid>
+  <ion-row>
+    <ion-col><ion-title class="title">Alarmas</ion-title></ion-col>
+    <ion-col></ion-col>
+    <ion-col></ion-col>
+  </ion-row>
+</ion-grid>
+
+<ion-list >
+  <ion-item class="label" >
+      <ion-col>
+        <ion-label>9:00 p.m</ion-label>
+        <ion-label class="m-label">26/09/2023</ion-label>
+      </ion-col>
+      <ion-col ><ion-label class="bold">Dormir</ion-label></ion-col>
+      <ion-col class="ion-text-end" ><ion-toggle  color="success" [checked]="true"></ion-toggle><br /><br /></ion-col>
+  </ion-item>
+  <br /><br />
+
+  <ion-item class="label">
+    <ion-col>
+      <ion-label>5:00 a.m</ion-label>
+      <ion-label class="m-label">Semanal</ion-label>
+    </ion-col>
+    <ion-col ><ion-label class="bold">Levantarse</ion-label></ion-col>
+    <ion-col class="ion-text-end" ><ion-toggle  color="success" [checked]="true"></ion-toggle><br /><br /></ion-col>
+</ion-item>
+<br /><br />
+
+<ion-item class="label">
+  <ion-col>
+    <ion-label>9:00 a.m</ion-label>
+    <ion-label class="m-label">Fin de semana</ion-label>
+  </ion-col>
+  <ion-col ><ion-label class="bold">Levantarse</ion-label></ion-col>
+  <ion-col class="ion-text-end" ><ion-toggle  color="success" [checked]="true"></ion-toggle><br /><br /></ion-col>
+</ion-item>
+<br /><br />
+</ion-list>
+
+  <ion-col><ion-fab class="button-position">
+      <ion-fab-button size="small" color="danger">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="top">
+        <ion-fab-button>
+          <ion-icon name="sync-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+      <ion-fab-list side="start">
+        <ion-fab-button>
+          <ion-icon name="alarm-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+    <br /><br /></ion-col>
+
+
+
