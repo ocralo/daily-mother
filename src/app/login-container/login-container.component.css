@@ -22,7 +22,7 @@ ion-button {
   --color: white;
 
   --border-radius: 20px;
-  --border-color: #000;
+  --border-color: #C82A24;
   --border-style: solid;
   --border-width: 1px;
    width: 100%;
@@ -30,7 +30,7 @@ ion-button {
 .ion-button-color{
   --background: white;
   --border-color: #C82A24;
-  --color: rgb(0, 0, 0);
+  --color: #C82A24;
 }
 .title-login{
   text-align: center;
@@ -45,4 +45,8 @@ ion-button {
 }
 .image{
   text-align: center;
+}
+.form{
+  width: 95%;
+  padding-left: 5%;
 }
